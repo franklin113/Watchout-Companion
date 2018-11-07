@@ -21,12 +21,12 @@ except:
 	ipAddress = '127.0.0.1'
 	print('Running as local host')
 
+timelineObj = Timelines()
+timelineList = timelineObj.get_aux_timelines(ipAddress)
+
 jsonData = {}#json.loads(file.read())
 
-timelineObj = Timelines()
-timelineList = timelineObj.connection(ipAddress)
-
-newBank= Bank(timelineList)
+newBank= Bank(timelineList) # bank.py
 
 jsonData['deviceconfig'] = {} # this is blank
 jsonData['bank'] = newBank.get_bank()['buttons'] #getting the list of buttons
@@ -41,7 +41,7 @@ jsonData['userconfig'] = {'page_direction_flipped':True}
 
 pprint.pprint(jsonData)
 pathToDB = str(Path.home())+str(Path('\AppData\Roaming\Companion\db'))
-print(pathToDB)
+#print(pathToDB)
 writeFile = open(pathToDB,'w')
 
 writeFile.write(json.dumps(jsonData,indent=12))

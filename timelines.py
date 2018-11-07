@@ -1,12 +1,11 @@
 import socket
-import pprint
+#import pprint
 import json
 
 class json_parser():
 	'''
-	I wrote this in the early stages of this program so there is
-	a lot of stuff in here that can be removed.
-	todo: remove unneccessary stuff
+	I copied this from one of my other programs so there may be some unnecessary stuff.
+	It just parses the retrieved data, but it was meant to do more than just timeline info.
 	'''
 	def __init__(self):
 
@@ -18,7 +17,6 @@ class json_parser():
 	def print_json(self, message):
 		'''
 		takes a message.. checks if it's actually multiple
-		If it's multiple me
 
 		'''
 		message = message
@@ -63,22 +61,20 @@ class json_parser():
 			print('Failed to decode json: ',e)
 			print(message[e.pos-50:e.pos+1000])
 
+		return
+
 	def get_data(self, listName, key):
 
 		valList= []
 
 		try:
 			for i in self.jsonObj[listName]:
-
-
 				valList.append(i[key])
 		except IndexError as e:
 			print(e, "   : get_data function")
 			print('Trying to get the below data:\n',listName,key,subkey)
 			print("Trying to get 0 index of json object")
 			print(self.jsonObj)
-
-
 
 		return valList
 
@@ -88,27 +84,13 @@ class Timelines:
 		pass
 
 	def get_test_timelines(self):
+
 		return ['Timeline ' + str(x) for x in range(1,2000)]
 
 
-	def connection(self,ipaddress):
+	def get_aux_timelines(self,ipaddress):
 		'''
-		accepts a message (should really only be 'getControlCues' so I
-		guess I don't even need this as an argument, but I am.), an ipaddress.
-
-		First, send the message and handle any network issues. No notices have
-		been implimented yet in TD so the user won't actually know why something
-		isn't working.
-		todo: find a way to show network status and issues
-
-		Second, receive any data sent back from watchout.
-
-		Third, use the json class I made above to parse the data.
-
-		Fourth, write this data to file because, again, we are on a seperate thread.
-		todo: use the queue module instead of writing to a file.
-
-		Return: None  (seperate thread)
+		retrieves timelines from Watchout
 
 		'''
 
@@ -140,7 +122,7 @@ class Timelines:
 		'''
 		MSGLEN = len(message)
 		totalSent = 0
-		sent = 0
+
 
 		while totalSent < MSGLEN:
 			try:
@@ -150,9 +132,6 @@ class Timelines:
 				break
 
 			totalSent+= sent
-
-		#capturing everything into a string
-		recvData = b''
 
 		# we are using this string to confirm we received everything
 		#this is always the end of the json data when getting timeline data
@@ -179,19 +158,14 @@ class Timelines:
 					#total_data.pop()
 					break
 
-		#all done
+
 		s.close()
 
-		#this is not efficient I know
-		#todo: make this better
 		finalData=''
 		for x in total_data:
 			finalData += x.decode()
 
 		'''
-		now that we have all our data in one string it's time to
-		deal with it. We are going to decode it using the built-in
-		json module.
 
 		The data looks like this -
 		{ItemList:['Name':['Timeline1','Timeline2']]}
@@ -204,14 +178,6 @@ class Timelines:
 		jsonObj=json_parser()
 		jsonObj.decode(finalData[6:]) #strip off the 'Reply '
 		names = jsonObj.get_data('ItemList','Name')
-		pprint.pprint(names)
-
-		'''
-		Because we are using a seperate thread and you cannot access
-		any modules INSIDE TD from that thread, I'm just taking the easy
-		approach - writing all the encoded json data to a file.
-		Less efficient, but simple. I haven't seen any issues with it.
-		todo: use the queue module for this whole thing
-		'''
+		#pprint.pprint(names)
 
 		return names

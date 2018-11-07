@@ -2,13 +2,13 @@ from bank import Bank
 from timelines import Timelines
 import pprint
 import json
+from pathlib import Path
 import sys
-
 '''
 This app polls Watchout for the timeline list and then
 generates buttons within companions data file.
 This file is here-
-C:\Users\Tim\AppData\Roaming\Companion\db
+C:\\Users\\Name\AppData\Roaming\Companion\db
 
 This script overwrites the db located in this script's directory.
 You'll need to copy and replace it, or backup and replace the original.
@@ -35,13 +35,14 @@ jsonData['userconfig']={} #this is blank.. Not sure what this is
 jsonData['instance'] = {"B1M9CUzoX": {
                                     "instance_type": "watchout-production",
                                     "label": "watchout-production",
-                                    "host": "{ipAddress}"}}
+                                    "host": "{ipAddress}".format(ipAddress = ipAddress)}}
 
 jsonData['userconfig'] = {'page_direction_flipped':True}
 
 pprint.pprint(jsonData)
-
-writeFile = open('db','w')
+pathToDB = str(Path.home())+str(Path('\AppData\Roaming\Companion\db'))
+print(pathToDB)
+writeFile = open(pathToDB,'w')
 
 writeFile.write(json.dumps(jsonData,indent=12))
 writeFile.close()

@@ -8,3 +8,5 @@ The script currently overwrites the original db file Companion uses to save butt
 C:\Users\Username\AppData\Roaming\Companion\DB
 
 There aren't many comments in the code yet and there are some extra files in there. I'll clean this up soon. Just run main.py.
+
+Python 3.5+ because it uses pathlib. This could be changed if needed.

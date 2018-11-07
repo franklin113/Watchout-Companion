@@ -1,0 +1,389 @@
+{
+        "userconfig": {
+                "page_direction_flipped": false
+        },
+        "instance": {
+                "B1M9CUzoX": {
+                        "instance_type": "watchout-production",
+                        "label": "watchout-production",
+                        "host": "192.168.20.206"
+                }
+        },
+        "bank": {
+                "37": {},
+                "78": {},
+                "4": {
+                        "7": {},
+                        "10": {},
+                        "12": {},
+                        "11": {},
+                        "6": {},
+                        "5": {},
+                        "8": {},
+                        "9": {}
+                },
+                "43": {},
+                "6": {
+                        "7": {},
+                        "11": {},
+                        "12": {},
+                        "10": {},
+                        "8": {},
+                        "9": {}
+                },
+                "25": {},
+                "95": {},
+                "21": {},
+                "63": {},
+                "23": {},
+                "31": {},
+                "18": {},
+                "62": {},
+                "76": {},
+                "14": {},
+                "58": {},
+                "35": {},
+                "55": {},
+                "67": {},
+                "52": {},
+                "28": {},
+                "20": {},
+                "26": {},
+                "24": {},
+                "91": {},
+                "56": {},
+                "81": {},
+                "13": {},
+                "53": {},
+                "30": {},
+                "59": {},
+                "69": {},
+                "93": {},
+                "54": {},
+                "45": {},
+                "64": {},
+                "50": {},
+                "70": {},
+                "68": {},
+                "73": {},
+                "72": {},
+                "77": {},
+                "9": {
+                        "10": {},
+                        "12": {},
+                        "11": {}
+                },
+                "27": {},
+                "19": {},
+                "32": {},
+                "8": {
+                        "10": {},
+                        "12": {},
+                        "11": {},
+                        "9": {}
+                },
+                "75": {},
+                "94": {},
+                "79": {},
+                "57": {},
+                "44": {},
+                "61": {},
+                "5": {
+                        "7": {},
+                        "10": {},
+                        "12": {},
+                        "11": {},
+                        "6": {},
+                        "8": {},
+                        "9": {}
+                },
+                "40": {},
+                "36": {},
+                "16": {},
+                "92": {},
+                "17": {},
+                "41": {},
+                "10": {
+                        "12": {},
+                        "11": {}
+                },
+                "51": {},
+                "65": {},
+                "34": {},
+                "85": {},
+                "48": {},
+                "60": {},
+                "1": {
+                        "11": {},
+                        "4": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Liv Under Logo"
+                        },
+                        "10": {},
+                        "3": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Loop Liv Under"
+                        },
+                        "9": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Chair Rail"
+                        },
+                        "7": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Loop Liv Over"
+                        },
+                        "12": {},
+                        "6": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Kill NDI"
+                        },
+                        "1": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Vid L/R"
+                        },
+                        "5": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Kill Vid L/R"
+                        },
+                        "8": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "Liv Over Logo"
+                        },
+                        "2": {
+                                "style": "text",
+                                "color": 16777215,
+                                "alignment": "center:center",
+                                "bgcolor": 0,
+                                "size": "large",
+                                "text": "NDI L/R"
+                        }
+                },
+                "38": {},
+                "22": {},
+                "47": {},
+                "88": {},
+                "80": {},
+                "11": {
+                        "12": {}
+                },
+                "84": {},
+                "83": {},
+                "12": {},
+                "98": {},
+                "86": {},
+                "49": {},
+                "46": {},
+                "7": {
+                        "10": {},
+                        "12": {},
+                        "11": {},
+                        "8": {},
+                        "9": {}
+                },
+                "96": {},
+                "87": {},
+                "90": {},
+                "99": {},
+                "42": {},
+                "33": {},
+                "89": {},
+                "3": {
+                        "7": {},
+                        "10": {},
+                        "12": {},
+                        "4": {},
+                        "11": {},
+                        "6": {},
+                        "5": {},
+                        "8": {},
+                        "9": {}
+                },
+                "97": {},
+                "29": {},
+                "66": {},
+                "39": {},
+                "15": {},
+                "71": {},
+                "82": {},
+                "74": {},
+                "2": {
+                        "7": {},
+                        "10": {},
+                        "12": {},
+                        "4": {},
+                        "11": {},
+                        "6": {},
+                        "5": {},
+                        "3": {},
+                        "8": {},
+                        "9": {}
+                }
+        },
+        "bank_actions": {
+                "1": {
+                        "7": [
+                                {
+                                        "id": "HJtn6Dfj7",
+                                        "label": "B1M9CUzoX:gotocue",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "gotocue",
+                                        "options": {
+                                                "timeline": "Living Hold Logo OVER",
+                                                "cuename": "loop"
+                                        }
+                                },
+                                {
+                                        "id": "B10aawGoX",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Living Hold Logo OVER"
+                                        }
+                                }
+                        ],
+                        "11": [
+                                {
+                                        "id": "H1ODnKMi7",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Chair Rail"
+                                        }
+                                }
+                        ],
+                        "4": [
+                                {
+                                        "id": "BJjDEvfjQ",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Living Hold Logo UNDER"
+                                        }
+                                }
+                        ],
+                        "1": [
+                                {
+                                        "id": "Sk8FJDzoQ",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Video Left Right"
+                                        }
+                                }
+                        ],
+                        "6": [
+                                {
+                                        "id": "ry7w-Pzom",
+                                        "label": "B1M9CUzoX:kill",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "kill",
+                                        "options": {
+                                                "timeline": "NDI Left Right"
+                                        }
+                                }
+                        ],
+                        "5": [
+                                {
+                                        "id": "ryVBbPMiX",
+                                        "label": "B1M9CUzoX:kill",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "kill",
+                                        "options": {
+                                                "timeline": "Video Left Right"
+                                        }
+                                }
+                        ],
+                        "9": [
+                                {
+                                        "id": "ByYfnvzom",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Chair Rail"
+                                        }
+                                }
+                        ],
+                        "3": [
+                                {
+                                        "id": "HJxWaPMjX",
+                                        "label": "B1M9CUzoX:gotocue",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "gotocue",
+                                        "options": {
+                                                "timeline": "Living Hold Logo UNDER",
+                                                "cuename": "loop"
+                                        }
+                                },
+                                {
+                                        "id": "Syo1APMiQ",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Living Hold Logo UNDER"
+                                        }
+                                }
+                        ],
+                        "8": [
+                                {
+                                        "id": "ryUJSPGoQ",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "Living Hold Logo OVER"
+                                        }
+                                }
+                        ],
+                        "2": [
+                                {
+                                        "id": "S1HuxvGom",
+                                        "label": "B1M9CUzoX:run",
+                                        "instance": "B1M9CUzoX",
+                                        "action": "run",
+                                        "options": {
+                                                "timeline": "NDI Left Right"
+                                        }
+                                }
+                        ]
+                }
+        },
+        "deviceconfig": {}
+}

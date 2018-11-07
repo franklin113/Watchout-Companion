@@ -1,0 +1,148 @@
+{
+            "bank": {},
+            "deviceconfig": {},
+            "bank_actions": {
+                        "1": {
+                                    "7": [
+                                                {
+                                                            "options": {
+                                                                        "cuename": "loop",
+                                                                        "timeline": "Living Hold Logo OVER"
+                                                            },
+                                                            "label": "B1M9CUzoX:gotocue",
+                                                            "action": "gotocue",
+                                                            "id": "HJtn6Dfj7",
+                                                            "instance": "B1M9CUzoX"
+                                                },
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Living Hold Logo OVER"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "B10aawGoX",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "11": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Chair Rail"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "H1ODnKMi7",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "3": [
+                                                {
+                                                            "options": {
+                                                                        "cuename": "loop",
+                                                                        "timeline": "Living Hold Logo UNDER"
+                                                            },
+                                                            "label": "B1M9CUzoX:gotocue",
+                                                            "action": "gotocue",
+                                                            "id": "HJxWaPMjX",
+                                                            "instance": "B1M9CUzoX"
+                                                },
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Living Hold Logo UNDER"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "Syo1APMiQ",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "6": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "NDI Left Right"
+                                                            },
+                                                            "label": "B1M9CUzoX:kill",
+                                                            "action": "kill",
+                                                            "id": "ry7w-Pzom",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "5": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Video Left Right"
+                                                            },
+                                                            "label": "B1M9CUzoX:kill",
+                                                            "action": "kill",
+                                                            "id": "ryVBbPMiX",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "1": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Video Left Right"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "Sk8FJDzoQ",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "2": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "NDI Left Right"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "S1HuxvGom",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "4": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Living Hold Logo UNDER"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "BJjDEvfjQ",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "8": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Living Hold Logo OVER"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "ryUJSPGoQ",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ],
+                                    "9": [
+                                                {
+                                                            "options": {
+                                                                        "timeline": "Chair Rail"
+                                                            },
+                                                            "label": "B1M9CUzoX:run",
+                                                            "action": "run",
+                                                            "id": "ByYfnvzom",
+                                                            "instance": "B1M9CUzoX"
+                                                }
+                                    ]
+                        }
+            },
+            "instance": {
+                        "B1M9CUzoX": {
+                                    "instance_type": "watchout-production",
+                                    "label": "watchout-production",
+                                    "host": "192.168.20.206"
+                        }
+            },
+            "userconfig": {
+                        "page_direction_flipped": false
+            }
+}

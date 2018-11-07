@@ -1,7 +1,7 @@
-from base import Base
-from Button import Button
+from button import Button
 from action import Action
-class Pages(Base):
+
+class Pages():
 	def __init__(self,timelineNames, buttonOrAction):
 		self.timelineNames = timelineNames
 		self.infoDict = {}

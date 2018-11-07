@@ -1,13 +1,7 @@
-from base import Base
 from bank import Bank
 from pages import Pages
 from timelines import Timelines
 
-def test_base():
-	base = Base()
-	print('Debug: Base-')
-	base.build_pages(10)
-	print('Base PASSED')
 
 
 def test_bank(timelines = None):
@@ -38,7 +32,7 @@ def test_page():
 
 def test_timelines():
 	t = Timelines()
-	newTimelines = t.connection('127.0.0.1')
+	newTimelines = t.get_aux_timelines('127.0.0.1')
 	print(newTimelines)
 	return newTimelines
 

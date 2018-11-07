@@ -1,29 +1,34 @@
-from base import Base
 
+'''
+bank_actions -> actionPages -> Action (me)
 
+example output -
+'bank_actions': {'1': {'1': [{'action': 'run',
+                               'id': 'HJtn6Dfj7',
+                               'instance': 'B1M9CUzoX',
+                               'label': 'B1M9CUzoX:run',
+                               'options': {'timeline': '--  Backup image'}}],
 
-class Action(Base):
+'''
+
+class Action():
 
 	def __init__(self,timelineName):
-		self.id = 'HJtn6Dfj7'
-		self.label = "B1M9CUzoX:run"
-		self.instance = "B1M9CUzoX"
-		self.action = 'run'
-		self.options = {'timeline':timelineName}
+		'''
+		each physical button contains a button object and an action object.
+		For every button, we are creating an action object to be added to
+		the 'bank_action' key in our main dict.
 
-	def get_action(self):
-		info = [{
-			'id':self.id,
-			'label':self.label,
-			'instance':self.instance,
-			'action':self.action,
-			'options':self.options
+		:param timelineName:
+		'''
+
+		self.info = [{
+			'id':'HJtn6Dfj7',
+			'label':"B1M9CUzoX:run",
+			'instance':"B1M9CUzoX",
+			'action':'run',
+			'options': {'timeline':timelineName}
 		}]
-		return info
-
-def test():
-	a = Action('Timeline 1')
-	print(a.get_action())
-
-
-#test()
+	def get_action(self):
+		# returns our dictionary
+		return self.info
